@@ -1,0 +1,19 @@
+{
+  "name": "purplish",
+  "version": "1.0.0",
+  "description": "A purple (but not too purple) theme for VSCode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blainehoak/purplish.git"
+  },
+  "author": "Blaine Hoak <blainehoak@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blainehoak/purplish/issues"
+  },
+  "homepage": "https://github.com/blainehoak/purplish#readme"
+}
