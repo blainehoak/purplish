@@ -2,7 +2,22 @@
   "name": "purplish",
   "version": "1.0.0",
   "description": "A purple (but not too purple) theme for VSCode.",
-  "main": "index.js",
+  "publisher": "blainehoak",
+  "engines": {
+      "vscode": "^1.0.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "purplish",
+              "uiTheme": "vs-dark",
+              "path": "./themes/purplish-theme.json"
+          }
+      ]
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
