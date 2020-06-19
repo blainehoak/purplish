@@ -30,181 +30,74 @@
 		"editor.lineHighlightBorder": "#343463",
 		//"editor.findMatchBackground":"#844acf", 			//revisit once syntax colors are chosen
 		//"editor.findMatchHighlightBackground": "#ff0000",	//revisit once syntax colors are chosen -- should be slightly different than color above
+		//"editor.selectionBackground": "#ff0000",			//text highlighting color -- revisit when syntax colors are chosen
 
 		// Editor Groups & Tabs.
 		"editorGroupHeader.noTabsBackground": "#1e1d3f",
 		"editorGroupHeader.tabsBackground": "#1e1d3f",
-		//"tab.activeBackground": "#222244", 					//might change
 		"tab.activeForeground": "#ffffff",
 		"tab.border": "#1E1E3F",
 		"tab.activeBorder": "#a295eb",
 		"tab.inactiveBackground": "#1e1d3f",
-		"tab.inactiveForeground": "#a19ac7", 				//might change
+		"tab.inactiveForeground": "#a19ac7", 				
 
 		// Panel.
 		"panel.background": "#1e1d3f",
 		"panel.border": "#222244",
 		"panelTitle.activeBorder": "#a295eb",
-		//"panelTitle.activeForeground": "#ffffff",
-		"panelTitle.inactiveForeground": "#a19ac7", 		//might change
+		"panelTitle.activeForeground": "#ffffff",
+		"panelTitle.inactiveForeground": "#a19ac7", 	
 
 		// Title bar
 		"titleBar.activeBackground": "#1e1e3f",
 		"titleBar.activeForeground": "#ffffff",
-		//"titleBar.inactiveBackground": "#1e1d3f",
-		//"titleBar.inactiveForeground": "#A599E9",
-		//"walkThrough.embeddedEditorBackground": "#1E1E3F",
-		//"welcomePage.buttonBackground": "#1E1E3F",
-		//"welcomePage.buttonHoverBackground": "#262650",
-		//"widget.shadow": "#00000026",
+		//"descriptionForeground": "#a295eb",
 
-		// Status Bar Colors.
-		//"statusBar.border": "#1E1E3F",
-		"statusBar.background": "#5e31c9", 					//might change
-		//"statusBar.foreground": "#ffffff",
-		//"statusBar.noFolderBackground": "#1E1E3F",
-		//"statusBar.noFolderForeground": "#A599E9",
-		//"statusBarItem.activeBackground": "#4D21FC",
-		//"statusBarItem.hoverBackground": "#4D21FC",
-		//"statusBarItem.prominentBackground": "#1E1E3F",
-		//"statusBarItem.prominentHoverBackground": "#2D2B55",
+		// Status Bar 
+		"statusBar.background": "#513594", 					//might change
+		"statusBar.foreground": "#ffffff",
 
 		// Editor Widget 
 		"editorWidget.background": "#1e1d3f",
 		"editorWidget.border": "#a295eb",
-		//"editorHoverWidget.background": "#161633",
-		//"editorHoverWidget.border": "#161633",
-		//"editorSuggestWidget.background": "#1F1F41",
-		//"editorSuggestWidget.border": "#1F1F41",
-		//"editorSuggestWidget.foreground": "#ffffff",
-		//"editorSuggestWidget.highlightForeground": "#a295eb",
-		//"editorSuggestWidget.selectedBackground": "#2D2B55",
 		
 		// Input Control
 		"input.background": "#222244",
-		//"input.border": "#1E1E3F",
-		//"input.foreground": "#FAD000",
-		"input.placeholderForeground": "#a19ac7", 			//might change
-		//"inputOption.activeBorder": "#1E1E3F",
-		//"inputValidation.errorBackground": "#2D2B55",
-		//"inputValidation.errorBorder": "#FAD000",
-		//"inputValidation.infoBackground": "#2D2B55",
-		//"inputValidation.infoBorder": "#2D2B55",
-		//"inputValidation.warningBackground": "#2D2B55",
-		//"inputValidation.warningBorder": "#FAD000",
+		"input.placeholderForeground": "#a19ac7", 		
 		"inputOption.activeBackground": "#a19ac7",
 
 		// Lists and Trees.
 		//"list.dropBackground": "#2D2B55",
-		"list.activeSelectionBackground": "#a295eb",	//change but keep same color as inactive selection background
+		"list.activeSelectionBackground": "#412f86",	
 		"list.activeSelectionForeground": "#ffffff",
-		"list.focusBackground": "#5646b1",				//might change -- background color for current command palette selection
-		"list.focusForeground": "#ffffff",
-		//"list.highlightForeground": "#FAD000",
-		"list.hoverBackground": "#5646b1",				//might change -- hover option background color for all lists
-		//"list.hoverForeground": "#CEC5FF",				//maybe fixme
-		"list.inactiveSelectionBackground": "#a295eb", 		//might change -- background color for current file
-		"list.inactiveSelectionForeground": "#ffffff",
+		"list.focusBackground": "#412f86",				
+		"list.focusForeground": "#ffffff", 
+		"list.hoverBackground": "#493c94",				
+		"list.inactiveSelectionBackground": "#412f86", 		
+		"list.inactiveSelectionForeground": "#ffffff",  
 
 		// Quick Picker
-		//"pickerGroup.border": "#1E1E3F",
-		"pickerGroup.foreground": "#a599e9", 			//change -- command palette recently used and other commands label
+		"pickerGroup.foreground": "#a599e9", 			//might change -- command palette recently used and other commands label
 		"quickInput.foreground": "#ffffff",
 
-		// Button.
-		"button.background": "#772fb1",					//might change
-		// "button.foreground": "#ffffff",
-		// "button.hoverBackground": "#B362FF",				//automatically lighter version of background color
-
+		// Button and Badge
+		"button.background": "#772fb1",					
+		"extensionButton.prominentBackground": "#29a548", //might change
+		"extensionButton.prominentHoverBackground": "#38b858",
+		"badge.background": "#b553db",				
+ 
 		// Dropdown.
 		"dropdown.background": "#1e1d3f",
-		//"dropdown.border": "#1E1E3F",
 		"dropdown.foreground": "#ffffff",
 
 		// Minimap
-		"minimap.findMatchHighlight": "#844acf", 		//maybe change -- should be the same as normal highlight color
+		"minimap.findMatchHighlight": "#844acf", 		
 		//"minimap.selectionHighlight": "#c4ca6e"			//maybe change -- should be the same as editor selection highlight? (not sure)
 
-		/*// Debug 
-		//need to work on debug area
-		"debugToolBar.background": "#1E1E3F",
-		"debugExceptionWidget.background": "#1E1E3F",
-		"debugExceptionWidget.border": "#A599E9",
-		"debugIcon.startForeground": "#a295eb",
-		"debugIcon.continueForeground":"#a295eb",
-		"debugIcon.disconnectForeground":"#a295eb",
-		"debugIcon.pauseForeground":"#a295eb",
-		"debugIcon.restartForeground":"#3AD900",
-		"debugIcon.stepBackForeground":"#a295eb",
-		"debugIcon.stepIntoForeground":"#a295eb",
-		"debugIcon.stepOutForeground":"#a295eb",
-		"debugIcon.stepOverForeground":"#a295eb",
-		"debugIcon.stopForeground":"#EC3A37F5",*/
-
-
-		/* //  The selection color battle starts here.
-		"editor.selectionBackground": "#B362FF88", // Color of the editor selection.
-		"editor.inactiveSelectionBackground": "#7580B8C0", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
-		"editor.selectionHighlightBackground": "#7E46DF46", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
-		"editor.wordHighlightBackground": "#FFFFFF0D", // Same words other places.
-		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
-		"editor.findMatchBackground": "#ff7300ab", // #FF7200 Color of the current search match.
-		"editor.findMatchHighlightBackground": "#FFFF0336", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
-		"editor.findRangeHighlightBackground": "#FFFF0336", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-		"editor.hoverHighlightBackground": "#FF730056", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
-		"editor.lineHighlightBackground": "#1F1F41", // Current line of code. Background color for the highlight of line at the cursor position.
-		"editor.rangeHighlightBackground": "#1F1F41",
-		"editorLink.activeForeground": "#A599E9",
-		"editorIndentGuide.background": "#A599E90F",
-		"editorIndentGuide.activeBackground": "#A599E942",
-		"editorRuler.foreground": "#A599E91C", // Editor Ruler.
-		"editorOverviewRuler.border": "#A599E91C",
-		"editorCodeLens.foreground": "#A599E9",
-
-
-		// The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
-		"editorMarkerNavigation.background": "#3B536433",
-		"editorMarkerNavigationError.background": "#EC3A37F5",
-		"editorMarkerNavigationWarning.background": "#FAD000",
-
-		// Extensions.
-		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_extensions
-		"extensionButton.prominentBackground": "#5D37F0",
-		"extensionButton.prominentForeground": "#FFFFFF",
-		"extensionButton.prominentHoverBackground": "#8c6bc9",
-		"focusBorder": "#1E1E3F",
-
-
-		// Notification Colors.
-		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
-		"notificationCenterHeader.foreground": "#FFFFFF", // Notification Center header foreground color.
-		"notificationCenterHeader.background": "#6943FF", // Notification Center header background color.
-		"notificationToast.border": "#1E1E3F", // Notification toast border color.
-		"notifications.foreground": "#CEC5FF", // Notification foreground color.
-		"notifications.background": "#1E1E3F", // Notification background color.
-		"notifications.border": "#2D2B55", // Notification border color separating from other notifications in the Notification Center.
-		"notificationLink.foreground": "#FFFFFF", // Notification links foreground color.
-
-
-		// Peek View Colors.
-		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors
-		"peekView.border": "#b553db",
-		"peekViewEditor.background": "#1E1E3F",
-		"peekViewEditor.matchHighlightBackground": "#19354900",
-		"peekViewEditorGutter.background": "#191935",
-		"peekViewResult.background": "#1E1E3F",
-		"peekViewResult.fileForeground": "#AAA",
-		"peekViewResult.lineForeground": "#FFFFFF",
-		"peekViewResult.matchHighlightBackground": "#2D2B55",
-		"peekViewResult.selectionBackground": "#2D2B55",
-		"peekViewResult.selectionForeground": "#FFFFFF",
-		"peekViewTitle.background": "#1F1F41",
-		"peekViewTitleDescription.foreground": "#AAA",
-		"peekViewTitleLabel.foreground": "#b553db",
-
-		// Progress Bar.
-		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
-		"progressBar.background": "#a295eb",*/
+		// Git Colors
+		"gitDecoration.addedResourceForeground": "#1da83b",
+		"gitDecoration.modifiedResourceForeground": "#e0de36",
+		"gitDecoration.untrackedResourceForeground": "#1c93ca"
 
 	},
     "tokenColors": [
