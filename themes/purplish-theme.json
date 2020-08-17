@@ -54,7 +54,7 @@
 		//"descriptionForeground": "#a295eb",
 
 		// Status Bar 
-		"statusBar.background": "#513594", 					//might change
+		"statusBar.background": "#6943ff", 					//might change
 		"statusBar.foreground": "#ffffff",
 
 		// Editor Widget 
@@ -97,10 +97,114 @@
 		// Git Colors
 		"gitDecoration.addedResourceForeground": "#1da83b",
 		"gitDecoration.modifiedResourceForeground": "#e0de36",
-		"gitDecoration.untrackedResourceForeground": "#1c93ca"
+		"gitDecoration.untrackedResourceForeground": "#1c93ca",
+
+		// Terminal Colors
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiRed": "#d90429",
+		"terminal.ansiGreen": "#3ad900",
+		"terminal.ansiYellow": "#ffe700",
+		"terminal.ansiBlue": "#6943ff",
+		"terminal.ansiMagenta": "#ff2b70",
+		"terminal.ansiCyan": "#00c5c7",
+		"terminal.ansiWhite": "#ffffff",
+		"terminal.ansiBrightBlack": "#676767",
+		"terminal.ansiBrightRed": "#f9291b",
+		"terminal.ansiBrightGreen": "#42d425",
+		"terminal.ansiBrightYellow": "#f1d000",
+		"terminal.ansiBrightBlue": "#6871ff",
+		"terminal.ansiBrightMagenta": "#ff76ff",
+		"terminal.ansiBrightCyan": "#79e7fa",
+		"terminal.ansiBrightWhite": "#ffffff",
+
+		// need preview colors
+
+		// need debug colors
 
 	},
-    "tokenColors": [
-        
-    ]
+    "tokenColors":[//8f2c8a
+		{
+			"scope": ["comment"],
+			"settings": {
+				"foreground": "#a295eb"
+			}
+		},
+
+		{
+			"scope": ["constant.language"],
+			"settings": {
+				"foreground": "#e283b2"
+			}
+		},
+
+		{
+			"scope": ["entity.name.function"],
+			"settings": {
+				"foreground": "#75cee4"
+			}
+		},
+
+		{
+			"scope": ["entity.name.class"],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+
+		{
+			"scope": ["keyword"],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+
+		{
+			"scope": ["keyword.control"],
+			"settings": {
+				"foreground": "#ffa9b5"
+			}
+		},
+
+		{
+			"scope": ["storage.type"],
+			"settings": {
+				"foreground": "#a23db6"
+			}
+		},
+		
+		{
+			"scope": ["string"],
+			"settings": {
+				"foreground": "#abecc1"
+			}
+		},
+
+		{
+			"scope": ["support.function"],
+			"settings": {
+				"foreground": "#4252e9"
+			}
+		},
+
+		{
+			"scope": ["support.constant"],
+			"settings": {
+				"foreground": "#9e2828"
+			}
+		},
+
+		{
+			"scope": ["support.type"],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+
+		{
+			"scope": ["variable"],
+			"settings": {
+				"foreground": "#dd95eb"
+			}
+		},
+	]
 }
