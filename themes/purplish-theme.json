@@ -1,8 +1,8 @@
 {
-    "$schema": "vscode://schemas/color-theme",
-    "name": "purplish",
-    "type": "dark",
-    "colors": {
+	"$schema": "vscode://schemas/color-theme",
+	"name": "purplish",
+	"type": "dark",
+	"colors": {
 		// Activity Bar.
 		"activityBar.background": "#1e1d3f",
 		"activityBar.border": "#222244",
@@ -12,7 +12,6 @@
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBar.activeBorder": "#a295eb",
 		"activityBar.activeBackground": "#222244",
-
 		// Sidebar.
 		"sideBar.background": "#1e1d3f",
 		"sideBar.border": "#222244",
@@ -21,17 +20,15 @@
 		"sideBarSectionHeader.foreground": "#ffffff",
 		"sideBarTitle.foreground": "#ffffff",
 		"sideBarSectionHeader.border": "#1e1d3f",
-
 		// Editor 
-		"editor.background": "#1e1d3f", 
-		"editor.foreground": "#ffffff", 
-		"editorLineNumber.foreground": "#ffffff", 
-		"editorCursor.foreground": "#ffffff", 
+		"editor.background": "#1e1d3f",
+		"editor.foreground": "#ffffff",
+		"editorLineNumber.foreground": "#ffffff",
+		"editorCursor.foreground": "#ffffff",
 		"editor.lineHighlightBorder": "#343463",
 		//"editor.findMatchBackground":"#844acf", 			//revisit once syntax colors are chosen
 		//"editor.findMatchHighlightBackground": "#ff0000",	//revisit once syntax colors are chosen -- should be slightly different than color above
 		//"editor.selectionBackground": "#ff0000",			//text highlighting color -- revisit when syntax colors are chosen
-
 		// Editor Groups & Tabs.
 		"editorGroupHeader.noTabsBackground": "#1e1d3f",
 		"editorGroupHeader.tabsBackground": "#1e1d3f",
@@ -39,66 +36,54 @@
 		"tab.border": "#1E1E3F",
 		"tab.activeBorder": "#a295eb",
 		"tab.inactiveBackground": "#1e1d3f",
-		"tab.inactiveForeground": "#a19ac7", 				
-
+		"tab.inactiveForeground": "#a19ac7",
 		// Panel.
 		"panel.background": "#1e1d3f",
 		"panel.border": "#222244",
 		"panelTitle.activeBorder": "#a295eb",
 		"panelTitle.activeForeground": "#ffffff",
-		"panelTitle.inactiveForeground": "#a19ac7", 	
-
+		"panelTitle.inactiveForeground": "#a19ac7",
 		// Title bar
 		"titleBar.activeBackground": "#1e1e3f",
 		"titleBar.activeForeground": "#ffffff",
 		//"descriptionForeground": "#a295eb",
-
 		// Status Bar 
-		"statusBar.background": "#6943ff", 					//might change
+		"statusBar.background": "#6943ff", //might change
 		"statusBar.foreground": "#ffffff",
-
 		// Editor Widget 
 		"editorWidget.background": "#1e1d3f",
 		"editorWidget.border": "#a295eb",
-		
 		// Input Control
 		"input.background": "#222244",
-		"input.placeholderForeground": "#a19ac7", 		
+		"input.placeholderForeground": "#a19ac7",
 		"inputOption.activeBackground": "#a19ac7",
-
 		// Lists and Trees.
 		//"list.dropBackground": "#2D2B55",
-		"list.activeSelectionBackground": "#412f86",	
+		"list.activeSelectionBackground": "#412f86",
 		"list.activeSelectionForeground": "#ffffff",
-		"list.focusBackground": "#412f86",				
-		"list.focusForeground": "#ffffff", 
-		"list.hoverBackground": "#493c94",				
-		"list.inactiveSelectionBackground": "#412f86", 		
-		"list.inactiveSelectionForeground": "#ffffff",  
-
+		"list.focusBackground": "#412f86",
+		"list.focusForeground": "#ffffff",
+		"list.hoverBackground": "#493c94",
+		"list.inactiveSelectionBackground": "#412f86",
+		"list.inactiveSelectionForeground": "#ffffff",
 		// Quick Picker
-		"pickerGroup.foreground": "#a599e9", 			//might change -- command palette recently used and other commands label
+		"pickerGroup.foreground": "#a599e9", //might change -- command palette recently used and other commands label
 		"quickInput.foreground": "#ffffff",
-
 		// Button and Badge
-		"button.background": "#772fb1",					
+		"button.background": "#772fb1",
 		"extensionButton.prominentBackground": "#29a548", //might change
 		"extensionButton.prominentHoverBackground": "#38b858",
-		"badge.background": "#b553db",				
- 
+		"badge.background": "#b553db",
 		// Dropdown.
 		"dropdown.background": "#1e1d3f",
 		"dropdown.foreground": "#ffffff",
-
 		// Minimap
-		"minimap.findMatchHighlight": "#844acf", 		
+		"minimap.findMatchHighlight": "#844acf",
 		//"minimap.selectionHighlight": "#c4ca6e"			//maybe change -- should be the same as editor selection highlight? (not sure)
-
 		// Git Colors
 		"gitDecoration.addedResourceForeground": "#1da83b",
 		"gitDecoration.modifiedResourceForeground": "#e0de36",
 		"gitDecoration.untrackedResourceForeground": "#1c93ca",
-
 		// Terminal Colors
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiRed": "#d90429",
@@ -116,92 +101,111 @@
 		"terminal.ansiBrightMagenta": "#ff76ff",
 		"terminal.ansiBrightCyan": "#79e7fa",
 		"terminal.ansiBrightWhite": "#ffffff",
-
 		// need preview colors
-
 		// need debug colors
-
 	},
-    "tokenColors":[//8f2c8a
+	"tokenColors": [ //8f2c8a
 		{
-			"scope": ["comment"],
+			"scope": [
+				"comment"
+			],
 			"settings": {
 				"foreground": "#a295eb"
 			}
 		},
-
 		{
-			"scope": ["constant.language"],
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#a295eb",
+			}
+		},
+		{
+			"scope": [
+				"constant.language"
+			],
 			"settings": {
 				"foreground": "#e283b2"
 			}
 		},
-
 		{
-			"scope": ["entity.name.function"],
+			"scope": [
+				"entity.name.function"
+			],
 			"settings": {
 				"foreground": "#75cee4"
 			}
 		},
-
 		{
-			"scope": ["entity.name.class"],
+			"scope": [
+				"entity.name.class"
+			],
 			"settings": {
 				"foreground": "#ffffff"
 			}
 		},
-
 		{
-			"scope": ["keyword"],
+			"scope": [
+				"keyword"
+			],
 			"settings": {
 				"foreground": "#ffffff"
 			}
 		},
-
 		{
-			"scope": ["keyword.control"],
+			"scope": [
+				"keyword.control"
+			],
 			"settings": {
 				"foreground": "#ffa9b5"
 			}
 		},
-
 		{
-			"scope": ["storage.type"],
+			"scope": [
+				"storage.type"
+			],
 			"settings": {
 				"foreground": "#a23db6"
 			}
 		},
-		
 		{
-			"scope": ["string"],
+			"scope": [
+				"string.quoted.single",
+				"string.quoted.double"
+			],
 			"settings": {
-				"foreground": "#abecc1"
+				"foreground": "#71d66d"
 			}
 		},
-
 		{
-			"scope": ["support.function"],
+			"scope": [
+				"support.function"
+			],
 			"settings": {
-				"foreground": "#4252e9"
+				"foreground": "#90eecf"
 			}
 		},
-
 		{
-			"scope": ["support.constant"],
+			"scope": [
+				"support.constant"
+			],
 			"settings": {
 				"foreground": "#9e2828"
 			}
 		},
-
 		{
-			"scope": ["support.type"],
+			"scope": [
+				"support.type"
+			],
 			"settings": {
 				"foreground": "#ffffff"
 			}
 		},
-
 		{
-			"scope": ["variable"],
+			"scope": [
+				"variable"
+			],
 			"settings": {
 				"foreground": "#dd95eb"
 			}
